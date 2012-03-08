@@ -1,0 +1,14 @@
+Paint
+=====
+
+Paint is a paint program with a GUI interface. 
+
+Features include:
+- Variable "brush" shapes (any string of characters) for freehand painting
+- Variable brush size
+- Variable colors
+- Rectangle, Oval, and Line modes for drawing simple geometric shapes (with outline and fill modes)
+- Infinite Undo, Redo, Clear functions
+- Save/Load functions
+- A help dialoge 
+- Tracks if changes have been made since the last save
