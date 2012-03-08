@@ -1,6 +1,6 @@
 //Matthew Usnick
-//CS211S Final Project
-//due: 12/14/11
+//Fall 2011
+//Shape.java
 
 //$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$Shape$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$
 /** Task: Shape is an object of a single brush stroke or shape. The type is 
@@ -18,26 +18,27 @@ import java.io.Serializable;
 public class Shape implements Serializable
 {
     //:::::::::::::::::::::::::::::::Variables::::::::::::::::::::::::::::::::::
-	
-    /**
-	 * 
-	 */
-	private static final long serialVersionUID = 580120126955952935L;
-	//constant static variables for the painting mode of the object-------------
+
+    //auto-generated serialVersionUID
+    private static final long serialVersionUID = 580120126955952935L;
+
+    //constant static variables for the painting mode of the object-------------
     final static int BRUSH = 0;
     final static int LINE = 1;
     final static int RECT = 2;
     final static int OVAL = 3;
     final static int FILL_RECT = 4;
     final static int FILL_OVAL = 5;
-    
 
+    //variables for track brush strokes
     final static int MIDDLE = 1;
     final static int END = 3;
-
 	
     //the painting mode of this object------------------------------------------
     private int mode;
+    
+    //tracks if the brush stroke is a single brush stroke, or a string of brush 
+    //strokes
     private int paintMode;
 
     //the Color of this object--------------------------------------------------
