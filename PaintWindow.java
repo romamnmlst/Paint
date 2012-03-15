@@ -1610,7 +1610,7 @@ public class PaintWindow extends JFrame
             "You may also save and load Java Paint projects. If you are\n" +
             "unhappy with your current painting, just hit the \"clear\"\n" +
             "button to erase what is on the canvas. Java paint also allows\n" +
-            " infinite undos, so you'll never loose your work.\n\n" 
+            " infinite undos, so you'll never lose your work.\n\n" 
             +
             "Enjoy painting with Java Paint!\n\n" 
             +
